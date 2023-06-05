@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {motion} from 'framer-motion'
-import Me from '../assets/Images/profile-img.png'
+import Me from '../assets/Images/me.png'
 
 
 const Box = styled(motion.div)`
@@ -45,7 +45,7 @@ display: flex;
     left: 50%;
     transform: translate(-50%,0%);
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 `
 
@@ -74,13 +74,13 @@ const Intro = () => {
     return (
         <Box
         initial={{height:0}}
-        animate={{height: '55vh'}}
+        animate={{height: '60vh'}}
         transition={{ type: 'spring', duration:2, delay:1 }}
         >
             <SubBox>
                 <Text>
                     <h1>Hi,</h1>
-                    <h3>I'm CodeBucks.</h3>
+                    <h3>I am One1Tech.</h3>
                     <h6>I design and Code simple yet beautiful websites.</h6>
                 </Text>
             </SubBox>
