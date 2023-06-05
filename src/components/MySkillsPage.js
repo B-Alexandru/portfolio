@@ -91,35 +91,7 @@ const MySkillsPage = () => {
 <SocialIcons theme='light'/>
 <PowerButton />
 <ParticleComponent theme='light' />
-            <Main>
-<Title>
-    <Design width={40} height={40} /> Designer
-</Title>
-<Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
-</Description>
-<Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
-</ul>
-</Description>
-<Description>
-<strong>Tools</strong>
-<ul>
-    <li>
-       Figma
-    </li>
-    
-</ul>
-</Description>
-
-            </Main>
+          
             <Main>
 <Title>
     <Develope width={40} height={40} /> Frontend Developer

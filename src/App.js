@@ -7,7 +7,7 @@ import GlobalStyle from "./globalStyles";
 //Components
 import Main from "./components/Main";
 import AboutPage from "./components/AboutPage";
-import BlogPage from "./components/BlogPage";
+
 import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 import SoundBar from "./subComponents/SoundBar";
@@ -23,17 +23,15 @@ function App() {
 
         {/* For framer-motion animation on page change! */}
         {/* Changed prop from exitBefore to mode */}
-        <AnimatePresence mode='wait'>
+        <AnimatePresence mode="wait">
           {/* Changed Switch to Routes */}
 
-          <Routes key={location.pathname} location={location} >
+          <Routes key={location.pathname} location={location}>
             {/* Changed component to element */}
 
             <Route path="/" element={<Main />} />
 
             <Route path="/about" element={<AboutPage />} />
-
-            <Route path="/blog" element={<BlogPage />} />
 
             <Route path="/work" element={<WorkPage />} />
 
